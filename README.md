@@ -2,16 +2,33 @@
 
 ## Instruction lancement du projet
 
-### Mise à jour de pip
-```
-python3 -m pip install --upgrade pip
-```
-### Installation des packages
-```
-python3 -m pip install tensorflow
-python3 -m pip install pandas
-python3 -m pip install numpy
-python3 -m pip install seaborn
-python3 -m pip install matplotlib
-python3 -m pip install scikit-learn
-```
+### installation des dépendances 
+
+rendre le fichier executable: 
+
+````
+chmod +x ./install_packages.sh
+````
+
+éxecuter le fichier d'installation de packages:
+
+````
+./install-packages.sh
+````
+ 
+### Lancement du fichier 
+
+Selectionner un le noyau python:
+
+faire attention a prendre le python dans lequel nos packages se sont installé pour vérifier on peut faire un la commande: 
+````
+where python
+````
+
+Pour ma part j'obtiens: 
+````
+/Users/matteogora/.asdf/shims/python
+````
+J'ai donc selectionner le noyau dont le path était: `~/.asdf/shims/python`
+
+
